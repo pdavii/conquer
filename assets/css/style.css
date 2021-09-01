@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn {
+    margin-right: 15px;
+    color: #EEE !important;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 500px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.escuro {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);;
+}
+h1 {
+    color: #EEE;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    letter-spacing: 2px;
+    font-size: 50px !important;
+}
+h2 {
+    font-size: 20px !important;
+    color: #EEE;
+}
+
+
+.box, .transparente {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #DDD;
+}
+img {
+    width: 100%;
+    height: 200px;
+}
+.fases {
+    height: 300px;
+}
+
+.box-content {
+    padding: 10px;
+    text-align: center;
+}
+.box-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-body {
+    margin: 15px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.our-services {
+    background-image: url('../img/montanhas.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-services h2 {
+    max-width: 800px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.maior {
+    min-height: 500px;
+}
+.padding {
+    padding: 0px 40px;
+}
+.transparente, input {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    padding: 20px !important;
+    color: #000;
+    margin-bottom: 15px !important;
+}
+input::placeholder {
+    color: #000 !important;
+} 
